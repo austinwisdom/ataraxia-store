@@ -31,19 +31,18 @@ const Homepage = () => {
       <img className="main__image" src={computer} alt="Ataraxia banner image" />
       <div className="main__text">
         <div className="main__conversation">
-        <TypeAnimation
+        <TypeAnimation className="main__typewriter"
           style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
           sequence={[
             `I am creating art with the machine.\nI am the machine.\nI am the art.`,
           ]}
           repeat={0}
         />
-          {/* <h3>I am creating art with the machine.</h3> */}
-          {/* <h3>I am the machine.</h3>
-          <h3>I am the art.</h3> */}
-          <h3>Clock goes here</h3>
-        </div>
-        <div>
+          <div className="main__time" data-type="clock" data-font-color="#000000" data-border-color="#000000" data-background-color="#ffffff" data-font-size="60" data-location-type="city" data-location-id="58258" ></div>
+<script type="text/javascript" src="https://www.thetimenow.com/ttn-embed.min.js"></script>
+            
+          </div>
+        <div className="main__typewriter">
           Music goes here.
           {/* <iframe className="main__iframe" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1501426021&color=%23ff0099&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div><a href="https://soundcloud.com/lofi_girl" title="Lofi Girl" target="_blank">Lofi Girl</a> · <a href="https://soundcloud.com/lofi_girl/1-am-chill-session" title="1 A.M Chill Session" target="_blank">1 A.M Chill Session</a></div> */}
         </div>
