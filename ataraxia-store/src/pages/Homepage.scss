@@ -1,4 +1,5 @@
 @use "../styles/partials/fonts" as *;
+@use "../styles/partials/variables" as *;
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 .header {
@@ -13,7 +14,7 @@
 .nav {
 
     &__link {
-        color: white;
+        color: $white;
     }
 
     &__ul {
@@ -25,12 +26,12 @@
     
     &__li {
         list-style-type: none;
-        color: white;
+        color: $white;
         transition: .5s;
         font-size: 1.5rem;
         
         &:hover {
-            color: #ff0099;
+            color: $pink;
             transition: .5s;
         }
 
@@ -60,14 +61,16 @@
     }
 
     &__time {
-        color: #fff;
+        color: $white;
+        background-color: $white;
         height: 5rem;
+        width: 5rem;
     }
 
     &__iframe {
         width: 100%;
         border-radius: 12px;
         height: 5rem;
-        background-color: #5C22CD;
+        background-color: $purple;
     }
 }
