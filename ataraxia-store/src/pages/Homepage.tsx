@@ -7,6 +7,7 @@ moment().format();
 import headerBanner from "../assets/images/brand/bannerImage.png"
 import computer from "../assets/images/ai-images/computer.png"
 import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
+import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
 
 import "./Homepage.scss"
 
@@ -69,8 +70,9 @@ const Homepage = () => {
         </div>
       </section>
       <section className="home__section">
-      <div className="page2__end">
+        <div className="page2__end">
           <h1>--&gt;</h1>
+          <img src={myParents} className="page3__image"/>
         </div>
       </section>
     </div>

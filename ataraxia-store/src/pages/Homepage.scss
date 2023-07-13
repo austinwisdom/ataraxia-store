@@ -127,3 +127,11 @@ body {
         text-align: left;
     }
 }
+
+.page3 {
+
+    &__image {
+        border-radius: 12px;
+        width: 80%;
+    }
+}
