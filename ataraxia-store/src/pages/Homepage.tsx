@@ -6,6 +6,7 @@ moment().format();
 
 import headerBanner from "../assets/images/brand/bannerImage.png"
 import computer from "../assets/images/ai-images/computer.png"
+import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
 
 import "./Homepage.scss"
 
@@ -32,7 +33,7 @@ const Homepage = () => {
         </ul>
       </nav>
       <main className="main">
-      <img className="main__image" src={computer} alt="Ataraxia banner image" />
+      <img className="main__image" src={computer} alt="90s style computer" />
       <div className="main__text">
           <div className="main__conversation">
             <TypeAnimation className="main__typewriter"
@@ -50,8 +51,27 @@ const Homepage = () => {
       </div>
       </main>
       </section>
+      <section className="home__section page2">
+        <div className="page2__titles">
+          <h1 className="page2__title">CONTINUE</h1>
+          <h2 className="page2__subtitle">続けてください</h2>
+        </div>
+        <div className="page2__image--div">
+          <img src={myCity} className="main__image page2__image"/>
+          <TypeAnimation className="main__typewriter"
+              style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+              sequence={[
+                10000,
+                `This is my city.\nIt was raining that day.`,
+              ]}
+              repeat={0}
+          />    
+        </div>
+      </section>
       <section className="home__section">
-        <h1>CONTINUE</h1>
+      <div className="page2__end">
+          <h1>--&gt;</h1>
+        </div>
       </section>
     </div>
     )

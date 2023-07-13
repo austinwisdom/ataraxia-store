@@ -93,3 +93,37 @@ body {
         }
     }
 }
+
+.page2 {
+
+    display: flex;
+
+    &__titles {
+        width: 25rem;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+    }
+
+    &__subtitle {
+        color: $pink;
+        font-size: 2rem;
+        margin-top: .5rem;
+    }
+
+    &__image {
+
+        height: 60%;
+        min-width: 100%;
+
+        &--div {
+            margin: 2rem;
+        }
+    }
+
+    &__end {
+        align-self: flex-start;
+        text-align: left;
+    }
+}
