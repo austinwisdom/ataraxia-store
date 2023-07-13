@@ -1,0 +1,36 @@
+.header {
+
+    display: flex;
+    flex-direction: row;
+
+    &__image {
+        height: 100vh;
+    }
+}
+
+.nav {
+
+    &__link {
+        color: white;
+    }
+
+    &__ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    &__li {
+        list-style-type: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+
+.main {
+
+    &__image {
+        width: 50%;
+    }
+}
