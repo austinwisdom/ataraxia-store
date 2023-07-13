@@ -14,11 +14,11 @@ const Homepage = () => {
     
     
     return (
-    <div className="header">
+    <div className="home">
       <div className="header__div">
         <img className="header__image" src={headerBanner} alt="Ataraxia banner image" />
       </div>
-      <section>
+      <section className="home__section">
       <nav className="nav">
         <ul className="nav__ul">
           <NavLink classname="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
@@ -44,24 +44,15 @@ const Homepage = () => {
               repeat={0}
             />    
           </div>
-        <div className="main__typewriter">
+        <div className="main__iframe--container">
           <iframe className="main__iframe" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1501426021&color=%23ff0099&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         </div>
       </div>
       </main>
       </section>
-      {/* <section>
-      <div className="main__conversation">
-            <TypeAnimation className="main__typewriter"
-              style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
-              sequence={[
-                15000,
-                `I am creating art with the machine.\nI am the machine.\nI am the art.`,
-              ]}
-              repeat={0}
-            />    
-        </div>
-      </section> */}
+      <section className="home__section">
+        <h1>CONTINUE</h1>
+      </section>
     </div>
     )
     
