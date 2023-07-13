@@ -25,7 +25,7 @@ const Homepage = () => {
       </nav>
       <main>
       <img className="main__image" src={computer} alt="Ataraxia banner image" />
-      <iframe className="main__iframe" src="https://open.spotify.com/embed/playlist/1YIe34rcmLjCYpY9wJoM2p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe className="main__iframe" src="https://open.spotify.com/embed/playlist/1YIe34rcmLjCYpY9wJoM2p?utm_source=generator" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </main>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
