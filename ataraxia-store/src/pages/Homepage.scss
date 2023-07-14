@@ -126,6 +126,7 @@ body {
     &__end {
         align-self: flex-start;
         text-align: left;
+        margin-right: 0;
     }
 }
 
@@ -134,5 +135,23 @@ body {
     &__image {
         border-radius: 12px;
         width: 80%;
+    }
+}
+
+.page4 {
+
+    &__titles {
+        margin-right: 1rem;
+    }
+
+    &__section {
+        display: flex;
+        min-width: 1200px;
+    }
+
+    &__image {
+        height: 40rem;
+        margin-top: 3.125rem;
+        border-radius: 12px;
     }
 }

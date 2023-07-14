@@ -8,6 +8,7 @@ import headerBanner from "../assets/images/brand/bannerImage.png"
 import computer from "../assets/images/ai-images/computer.png"
 import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
 import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
+import myBestFriend from "../assets/images/ai-images/tell-my-story/my-best-friend.png"
 
 import "./Homepage.scss"
 
@@ -64,10 +65,10 @@ const Homepage = () => {
           <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
               sequence={[
-                15000,
+                10000,
                 `This is my city.\nIt was raining that day.\nDo you like when it rains?`,
               ]}
-              repeat={0}
+              repeat={Infinity}
           /> 
         </div>
         <div className="page2__image--div">
@@ -79,6 +80,35 @@ const Homepage = () => {
         <div className="page2__end">
           <h1>--&gt;</h1>
           <img src={myParents} className="page3__image"/>
+          <TypeAnimation className="main__typewriter"
+              style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+              sequence={[
+                20000,
+                `This is the hospital I was born in.\nMy parents were very proud that day.\nWhere were you born?`
+              ]}
+              repeat={Infinity}
+          />
+        </div>
+      </section>
+      <section className="page4__section">
+        <div className="page4__titles">
+              <h1 className="page2__title">FRIENDSHIP</h1>
+              <h2 className="page2__subtitle">友情</h2>
+              <div>
+            <TypeAnimation className="main__typewriter"
+                style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+                sequence={[
+                  30000,
+                  `This is my BEST friend.\nHis name is GNDM-777, but you can call him SEVEN.\nDo you have a best friend?`
+                ]}
+                repeat={Infinity}
+            />
+          </div>
+        </div>
+        <div className="page4">
+          <div>
+            <img src={myBestFriend} className="page4__image"/>
+          </div>
         </div>
       </section>
     </div>
