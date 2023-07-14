@@ -9,7 +9,7 @@ import computer from "../assets/images/ai-images/computer.png"
 import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
 import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
 import myBestFriend from "../assets/images/ai-images/tell-my-story/my-best-friend.png"
-import lonely from "../assets/images/ai-images/tell-my-story/lonely.png"
+import lonely from "../assets/images/ai-images/tell-my-story/lonely2.png"
 import tokyo from "../assets/images/ai-images/tell-my-story/tokyo.png"
 
 import "./Homepage.scss"
@@ -121,7 +121,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="page5">
-              <h1 className="page2__title">[LONE]LY</h1>
+              <h1 className="page2__title">LONE-LY</h1>
               <h2 className="page2__subtitle">寂しい</h2>
           <div className="page5__typewriter">
             <TypeAnimation className="main__typewriter"
