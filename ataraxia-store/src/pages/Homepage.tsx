@@ -12,8 +12,6 @@ import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
 import "./Homepage.scss"
 
 const Homepage = () => {
-
-    
     
     return (
     <div className="home">
@@ -36,12 +34,19 @@ const Homepage = () => {
       <main className="main">
       <img className="main__image" src={computer} alt="90s style computer" />
       <div className="main__text">
-          <div className="main__conversation">
-            <TypeAnimation className="main__typewriter"
+      <div className="main__conversation">
+      <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
               sequence={[
-                3000,
-                `I am creating art with the machine.\nI am the machine.\nI am the art.`,
+                `機械を使って作品を作っています。\n私はマシンです。\nアートです。`,
+                2000,
+                `TRANSLATING.`,
+                500,
+                `TRANSLATING..`,
+                500,
+                `TRANSLATING...`,
+                500,
+                `I am creating art with the machine.\nI am the machine.\nI am the art.`
               ]}
               repeat={0}
             />    
@@ -56,17 +61,18 @@ const Homepage = () => {
         <div className="page2__titles">
           <h1 className="page2__title">CONTINUE</h1>
           <h2 className="page2__subtitle">続けてください</h2>
-        </div>
-        <div className="page2__image--div">
-          <img src={myCity} className="main__image page2__image"/>
           <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
               sequence={[
-                10000,
-                `This is my city.\nIt was raining that day.`,
+                15000,
+                `This is my city.\nIt was raining that day.\nDo you like when it rains?`,
               ]}
               repeat={0}
-          />    
+          /> 
+        </div>
+        <div className="page2__image--div">
+          <img src={myCity} className="main__image page2__image"/>
+   
         </div>
       </section>
       <section className="home__section">

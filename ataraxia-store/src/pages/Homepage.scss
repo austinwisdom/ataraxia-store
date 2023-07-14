@@ -114,11 +114,12 @@ body {
 
     &__image {
 
-        height: 60%;
+        height: 100%;
         min-width: 100%;
 
         &--div {
             margin: 2rem;
+            height: 600px;
         }
     }
 
