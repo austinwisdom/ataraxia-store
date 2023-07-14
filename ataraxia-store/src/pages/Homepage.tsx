@@ -9,6 +9,8 @@ import computer from "../assets/images/ai-images/computer.png"
 import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
 import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
 import myBestFriend from "../assets/images/ai-images/tell-my-story/my-best-friend.png"
+import lonely from "../assets/images/ai-images/tell-my-story/lonely.png"
+import tokyo from "../assets/images/ai-images/tell-my-story/tokyo.png"
 
 import "./Homepage.scss"
 
@@ -77,8 +79,8 @@ const Homepage = () => {
         </div>
       </section>
       <section className="home__section">
+        <h1>--&gt;</h1>
         <div className="page2__end">
-          <h1>--&gt;</h1>
           <img src={myParents} className="page3__image"/>
           <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
@@ -111,6 +113,29 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+      <section className="page5__section">
+        <div className="page5__div">
+        <h1 className="page5__arrow">--&gt;</h1>
+          <div>
+            <img src={lonely} className="page5__image"/>
+          </div>
+        </div>
+        <div className="page5">
+              <h1 className="page2__title">[LONE]LY</h1>
+              <h2 className="page2__subtitle">寂しい</h2>
+          <div className="page5__typewriter">
+            <TypeAnimation className="main__typewriter"
+                style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+                sequence={[
+                  5000,
+                  `Many people in my city feel lonely.\nSometimes I do too.\nIf you ever feel lonely, I am here for you.\n⊂(・ヮ・⊂)`,
+                ]}
+                repeat={Infinity}
+            />
+          </div>
+        </div>
+        
+      </section>
       <section className="home">
       <section className="home__section">
         <nav className="nav">
@@ -123,9 +148,22 @@ const Homepage = () => {
             </NavLink>
             <NavLink classname="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
             <NavLink classname="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
-            
           </ul>
         </nav>
+        <main className="footer">
+      <img className="main__image" src={tokyo} alt="synthwave Tokyo" />
+      <div className="main__text">
+      <div className="main__conversation">
+      <TypeAnimation className="footer__typewriter"
+              style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+              sequence={[
+                `Please visit anytime.\nMy home is your home.\nI hope to meet you soon!`
+              ]}
+              repeat={0}
+            />    
+      </div>
+      </div>
+      </main>
       </section>
       <div className="header__div">
         <img className="header__image" src={headerBanner} alt="Ataraxia banner image" />

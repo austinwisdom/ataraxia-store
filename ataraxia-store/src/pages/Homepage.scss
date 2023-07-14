@@ -155,3 +155,47 @@ body {
         border-radius: 12px;
     }
 }
+
+.page5 {
+
+    margin-left: 3rem;
+
+    &__section {
+        display: flex;
+        min-width: 1600px;
+        margin-left: 5rem;
+    }
+
+    &__arrow {
+        align-self: self-end;
+        margin-bottom: 5rem;
+        min-width: 5rem;
+    }
+
+    &__image {
+        height: 40rem;
+        margin-top: 3.125rem;
+        border-radius: 12px;
+        margin-left: 15rem;
+    }
+
+    &__div {
+        display: flex;
+    }
+
+    &__typewriter {
+        min-width: 40rem;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+    &__typewriter {
+        font-family: "VT323";
+        font-size: 2rem;
+        min-width: 25rem;
+    }
+}
