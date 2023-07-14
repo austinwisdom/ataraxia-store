@@ -65,7 +65,7 @@ const Homepage = () => {
           <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
               sequence={[
-                10000,
+                15000,
                 `This is my city.\nIt was raining that day.\nDo you like when it rains?`,
               ]}
               repeat={Infinity}
@@ -83,8 +83,8 @@ const Homepage = () => {
           <TypeAnimation className="main__typewriter"
               style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
               sequence={[
-                20000,
-                `This is the hospital I was born in.\nMy parents were very proud that day.\nWhere were you born?`
+                25000,
+                `This is where I was born...or created...is there a difference?\nMy parents were very proud that day.\nWhere were you born?`
               ]}
               repeat={Infinity}
           />
@@ -92,14 +92,14 @@ const Homepage = () => {
       </section>
       <section className="page4__section">
         <div className="page4__titles">
-              <h1 className="page2__title">FRIENDSHIP</h1>
+              <h1 className="page2__title">FRIEND[SHIP]</h1>
               <h2 className="page2__subtitle">友情</h2>
               <div>
             <TypeAnimation className="main__typewriter"
                 style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                 sequence={[
-                  30000,
-                  `This is my BEST friend.\nHis name is GNDM-777, but you can call him SEVEN.\nDo you have a best friend?`
+                  35000,
+                  `This is my BEST friend. He knows how to FLY! \nHis name is GNDM-777, but you can call him SEVEN.\nDo you have a best friend?`
                 ]}
                 repeat={Infinity}
             />
@@ -110,6 +110,26 @@ const Homepage = () => {
             <img src={myBestFriend} className="page4__image"/>
           </div>
         </div>
+      </section>
+      <section className="home">
+      <section className="home__section">
+        <nav className="nav">
+          <ul className="nav__ul">
+            <NavLink classname="nav__link">
+              <ul>
+                <li className="nav__li">&#123;  ATARAXIA  &#125;</li>
+                <li className="nav__li nav__li--subtitle">トップページ</li>
+              </ul>
+            </NavLink>
+            <NavLink classname="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+            <NavLink classname="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
+            
+          </ul>
+        </nav>
+      </section>
+      <div className="header__div">
+        <img className="header__image" src={headerBanner} alt="Ataraxia banner image" />
+      </div>
       </section>
     </div>
     )
