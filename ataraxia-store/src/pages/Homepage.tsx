@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom"
 import { TypeAnimation } from 'react-type-animation';
-import moment from 'moment';
-moment().format();
 
 
 import headerBanner from "../assets/images/brand/bannerImage.png"
@@ -16,7 +14,7 @@ import "./Homepage.scss"
 
 const Homepage = () => {
     
-    return (
+  return (
     <div className="home">
       <div className="header__div">
         <img className="header__image" src={headerBanner} alt="Ataraxia banner image" />
@@ -24,9 +22,9 @@ const Homepage = () => {
       <section className="home__section">
       <nav className="nav">
         <ul className="nav__ul">
-          <NavLink classname="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
-          <NavLink classname="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
-          <NavLink classname="nav__link">
+          <NavLink to={"/"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
+          <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+          <NavLink to={"/"} className="nav__link">
             <ul>
               <li className="nav__li">&#123;  ATARAXIA  &#125;</li>
               <li className="nav__li nav__li--subtitle">トップページ</li>
@@ -140,14 +138,14 @@ const Homepage = () => {
       <section className="home__section">
         <nav className="nav">
           <ul className="nav__ul">
-            <NavLink classname="nav__link">
+            <NavLink to={"/"} className="nav__link">
               <ul>
                 <li className="nav__li">&#123;  ATARAXIA  &#125;</li>
                 <li className="nav__li nav__li--subtitle">トップページ</li>
               </ul>
             </NavLink>
-            <NavLink classname="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
-            <NavLink classname="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
+            <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+            <NavLink to={"/"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
           </ul>
         </nav>
         <main className="footer">
@@ -170,7 +168,7 @@ const Homepage = () => {
       </div>
       </section>
     </div>
-    )
+  )}
     
-}
+
 export default Homepage
