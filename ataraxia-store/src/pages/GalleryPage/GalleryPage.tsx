@@ -18,14 +18,23 @@ const GalleryPage: FC = () => {
                     <TypeAnimation className="gallery__typewriter"
                         style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                         sequence={[
-                          `これはテストです`,
-                          5000,
-                          `THISはテストです`,
+                          `ビデオゲームをするのが好きです`,
+                          1000,
+                          `I ビデオゲームをするのが好きです`,
                           200,
-                          `THISはTESTです`,
+                          `I ビデオゲームをするのがLIKE`,
                           200,
-                          `THIS IS A TEST`,
-                          5000
+                          `I ビデオGAMESをするのが LIKE`,
+                          200,
+                          `I ビデオ GAMESをPLAYINGのが LIKE`,
+                          200,
+                          `I VIDEO GAMESをPLAYINGのが LIKE`,
+                          200,
+                          `I LIKE VIDEO GAMES PLAYINGのが`,
+                          200,
+                          `I LIKE PLAYING VIDEO GAMES のが`,
+                          200,
+                          `I LIKE PLAYING VIDEO GAMES`
                         ]}
                         speed={99}
                         omitDeletionAnimation={true}
