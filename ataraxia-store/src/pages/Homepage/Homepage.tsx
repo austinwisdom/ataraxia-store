@@ -1,14 +1,13 @@
 import { NavLink } from "react-router-dom"
 import { TypeAnimation } from 'react-type-animation';
 
-
-import headerBanner from "../assets/images/brand/bannerImage.png"
-import computer from "../assets/images/ai-images/computer.png"
-import myCity from "../assets/images/ai-images/tell-my-story/my-city.png"
-import myParents from "../assets/images/ai-images/tell-my-story/where-i-am.png"
-import myBestFriend from "../assets/images/ai-images/tell-my-story/my-best-friend.png"
-import lonely from "../assets/images/ai-images/tell-my-story/lonely2.png"
-import tokyo from "../assets/images/ai-images/tell-my-story/tokyo.png"
+import headerBanner from "../../assets/images/brand/bannerImage.png"
+import computer from "../../assets/images/ai-images/computer.png"
+import myCity from "../../assets/images/ai-images/tell-my-story/my-city.png"
+import myParents from "../../assets/images/ai-images/tell-my-story/where-i-am.png"
+import myBestFriend from "../../assets/images/ai-images/tell-my-story/my-best-friend.png"
+import lonely from "../../assets/images/ai-images/tell-my-story/lonely2.png"
+import tokyo from "../../assets/images/ai-images/tell-my-story/tokyo.png"
 
 import "./Homepage.scss"
 
@@ -22,7 +21,7 @@ const Homepage = () => {
       <section className="home__section">
       <nav className="nav">
         <ul className="nav__ul">
-          <NavLink to={"/"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
+          <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
           <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
           <NavLink to={"/"} className="nav__link">
             <ul>
