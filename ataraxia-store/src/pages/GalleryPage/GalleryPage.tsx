@@ -1,23 +1,15 @@
-import { useState, FC } from "react";
-
-// import ImageGrid from "../../components/ImageGrid.js"
+import { FC } from "react";
 import testImage from "../../assets/images/ai-images/computer2.png"
 
 import "./GalleryPage.scss"
 
-interface ImageProps {
-    selectedImage: "string"
-    setSelectedImage: () => void
-}
 
-// const [_selectedImage, _setSelectedImage] = useState(testImage);
-
-const GalleryPage: FC<ImageProps> = () => {
+const GalleryPage: FC = () => {
     return (
         <div>
-            {/* <ImageGrid setSelectedImg={setSelectedImage} /> */}
-            <img src={testImage} />
-            <h1>TEST</h1>
+            <main className="gallery">
+            <img className="gallery__image" src={testImage} />
+            </main>
         </div>
     );
 };
