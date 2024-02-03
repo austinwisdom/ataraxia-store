@@ -20,7 +20,7 @@ const GalleryPage: FC = () => {
       <nav className="nav">
         <ul className="nav__ul nav__full">
           <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
-          <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+          <NavLink to={"https://www.ataraxia.clothing/"} target="_blank" className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
           <NavLink to={"/"} className="nav__link">
             <ul>
               <li className="nav__li">&#123;  ATARAXIA  &#125;</li>

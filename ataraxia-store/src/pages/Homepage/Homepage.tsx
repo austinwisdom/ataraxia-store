@@ -22,7 +22,7 @@ const Homepage = () => {
       <nav className="nav">
         <ul className="nav__ul">
           <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
-          <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+          <NavLink to={"https://www.ataraxia.clothing/"} target="_blank" className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
           <NavLink to={"/"} className="nav__link">
             <ul>
               <li className="nav__li">&#123;  ATARAXIA  &#125;</li>
@@ -144,7 +144,7 @@ const Homepage = () => {
                 <li className="nav__li nav__li--subtitle">トップページ</li>
               </ul>
             </NavLink>
-            <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
+            <NavLink to={"https://www.ataraxia.clothing/"} target="_blank" className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
             <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
           </ul>
         </nav>
