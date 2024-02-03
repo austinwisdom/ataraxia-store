@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 import headerBanner from "../../assets/images/brand/bannerImage.png"
 import computer from "../../assets/images/ai-images/computer.png"
-import myCity from "../../assets/images/ai-images/tell-my-story/my-city.png"
+// import myCity from "../../assets/images/ai-images/tell-my-story/my-city.png"
 import myParents from "../../assets/images/ai-images/tell-my-story/where-i-am.png"
 import myBestFriend from "../../assets/images/ai-images/tell-my-story/my-best-friend.png"
 import tokyo from "../../assets/images/ai-images/tell-my-story/tokyo.png"
