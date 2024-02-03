@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 import tv from "../../assets/images/ai-images/computer2.png"
 import garden from "../../assets/images/ai-images/garden.png"
 import cy from "../../assets/images/ai-images/cy.png"
-import headerBanner from "../../assets/images/brand/bannerImage.png"
+// import headerBanner from "../../assets/images/brand/bannerImage.png"
 import "./GalleryPage.scss"
 
 
@@ -18,7 +18,7 @@ const GalleryPage: FC = () => {
             </div> */}
       <section className="home__section">
       <nav className="nav">
-        <ul className="nav__ul">
+        <ul className="nav__ul nav__full">
           <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
           <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
           <NavLink to={"/"} className="nav__link">
@@ -36,23 +36,23 @@ const GalleryPage: FC = () => {
                         <TypeAnimation className="gallery__typewriter"
                             style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                             sequence={[
-                              `ビデオゲームをするのが好きです`,
+                              `ビデオゲームをするのが好きです。`,
                               1000,
-                              `I ビデオゲームをするのが好きです`,
+                              `I ビデオゲームをするのが好きです。`,
                               200,
-                              `I ビデオゲームをするのがLIKE`,
+                              `I ビデオゲームをするのがLIKE。`,
                               200,
-                              `I ビデオGAMESをするのが LIKE`,
+                              `I ビデオGAMESをするのが LIKE。`,
                               200,
-                              `I ビデオ GAMESをPLAYINGのが LIKE`,
+                              `I ビデオ GAMESをPLAYINGのが LIKE。`,
                               200,
-                              `I VIDEO GAMESをPLAYINGのが LIKE`,
+                              `I VIDEO GAMESをPLAYINGのが LIKE。`,
                               200,
-                              `I LIKE VIDEO GAMES PLAYINGのが`,
+                              `I LIKE VIDEO GAMES PLAYINGのが。`,
                               200,
-                              `I LIKE PLAYING VIDEO GAMES のが`,
+                              `I LIKE PLAYING VIDEO GAMES のが。`,
                               200,
-                              `I LIKE PLAYING VIDEO GAMES`
+                              `I LIKE PLAYING VIDEO GAMES。`
                             ]}
                             speed={99}
                             omitDeletionAnimation={true}
@@ -67,27 +67,24 @@ const GalleryPage: FC = () => {
                         <TypeAnimation className="gallery__typewriter"
                             style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                             sequence={[
-                              `ビデオゲームをするのが好きです`,
+                              `ここは私の庭です。`,
                               1000,
-                              `I ビデオゲームをするのが好きです`,
+                              `THIS は私の庭です。`,
                               200,
-                              `I ビデオゲームをするのがLIKE`,
+                              `THIS は私の庭 IS。`,
                               200,
-                              `I ビデオGAMESをするのが LIKE`,
+                              `THIS はMY庭 IS。`,
                               200,
-                              `I ビデオ GAMESをPLAYINGのが LIKE`,
+                              `THIS は MY 庭 IS。`,
                               200,
-                              `I VIDEO GAMESをPLAYINGのが LIKE`,
+                              `THIS IS MY 庭。`,
                               200,
-                              `I LIKE VIDEO GAMES PLAYINGのが`,
-                              200,
-                              `I LIKE PLAYING VIDEO GAMES のが`,
-                              200,
-                              `I LIKE PLAYING VIDEO GAMES`
+                              `THIS IS MY GARDEN。`,
+                              3000
                             ]}
                             speed={99}
                             omitDeletionAnimation={true}
-                            repeat={0}
+                            repeat={10}
                             cursor={false}
                         />
                     </div>
@@ -98,27 +95,26 @@ const GalleryPage: FC = () => {
                         <TypeAnimation className="gallery__typewriter"
                             style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                             sequence={[
-                              `ビデオゲームをするのが好きです`,
+                              `私のお気に入りのセルフポートレートです。`,
                               1000,
-                              `I ビデオゲームをするのが好きです`,
+                              `MY お気に入りのセルフポートレートです。`,
                               200,
-                              `I ビデオゲームをするのがLIKE`,
+                              `MY お気に入りのSELFポートレートです。`,
                               200,
-                              `I ビデオGAMESをするのが LIKE`,
+                              `MY お気に入りの SELF ポートレートです。`,
                               200,
-                              `I ビデオ GAMESをPLAYINGのが LIKE`,
+                              `MY FAVORITE SELF ポートレートです。`,
                               200,
-                              `I VIDEO GAMESをPLAYINGのが LIKE`,
+                              `MY FAVORITE SELF PORTRAITです。`,
                               200,
-                              `I LIKE VIDEO GAMES PLAYINGのが`,
+                              `MY FAVORITE SELF PORTRAIT です。`,
                               200,
-                              `I LIKE PLAYING VIDEO GAMES のが`,
-                              200,
-                              `I LIKE PLAYING VIDEO GAMES`
+                              `MY FAVORITE SELF PORTRAIT。`,
+                              3000
                             ]}
                             speed={99}
                             omitDeletionAnimation={true}
-                            repeat={0}
+                            repeat={5}
                             cursor={false}
                         />
                     </div>

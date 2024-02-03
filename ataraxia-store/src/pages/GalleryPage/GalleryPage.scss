@@ -2,6 +2,12 @@
 @use "../../styles/partials/variables" as *;
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+.nav {
+  &__full {
+    width: 100vw;
+  }
+}
+
 .gallery {
     margin: 5rem;
 
@@ -20,6 +26,8 @@
         font-family: "VT323";
         font-size: 2rem;
         transition-duration: 1s;
+        margin-top: 4rem;
+        margin-left: 4rem;
 
         &:hover {
             color: $pink;
