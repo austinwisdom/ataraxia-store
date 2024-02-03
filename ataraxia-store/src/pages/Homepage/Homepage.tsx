@@ -46,10 +46,11 @@ const Homepage = () => {
                 500,
                 `TRANSLATING...`,
                 500,
-                `I am creating art with the machine.\nI am the machine.\nI am the art.`
+                `I am creating art with the machine.\nI am the machine.\nI am the art. --> > >`
               ]}
               repeat={0}
             />    
+          
           </div>
         <div className="main__iframe--container">
           <iframe className="main__iframe" width="100%" height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1501426021&color=%23ff0099&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -125,7 +126,7 @@ const Homepage = () => {
                 style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
                 sequence={[
                   5000,
-                  `Many people in my city feel lonely.\nSometimes I do too.\nIf you ever feel lonely, I am here for you.\n⊂(・ヮ・⊂)`,
+                  `Many people in my city feel lonely.\nSometimes I do too.\nIf you ever feel lonely, I am here for you!\n⊂(・ヮ・⊂)`,
                 ]}
                 repeat={Infinity}
             />
