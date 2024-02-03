@@ -145,7 +145,7 @@ const Homepage = () => {
               </ul>
             </NavLink>
             <NavLink to={"/"} className="nav__link"><li className="nav__li">プロダクツ</li></NavLink>
-            <NavLink to={"/"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
+            <NavLink to={"/gallery"} className="nav__link"><li className="nav__li">ギャラリー</li></NavLink>
           </ul>
         </nav>
         <main className="footer">
