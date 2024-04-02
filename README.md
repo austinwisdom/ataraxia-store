@@ -24,7 +24,7 @@ Phase I is the design and deployment of the landing page. Each image was generat
 
 ## $\textcolor{magenta}{\textsf{Phase II}}$
 
-Phase II (currently in progress) involves an elaborate image gallery, and a products page where visitors can purchase uniquely designed apparel fitting the theme and story of the app.
+Phase II involves an elaborate image gallery, and a products page where visitors can purchase uniquely designed apparel fitting the theme and story of the app.
 
 # $\textcolor{magenta}{\textsf{Welcome to Tokyo 2088}}$ 
 
